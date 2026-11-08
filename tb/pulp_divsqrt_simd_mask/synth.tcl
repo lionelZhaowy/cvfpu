@@ -131,7 +131,7 @@ if {[catch {
     write -format ddc -hierarchy -output $out/post_generic.ddc
     puts "CVFPU_MASK_DC_COMPLETED top=$DESIGN_TOP"
 } failure]} {
-    puts "BATCH8_DC_FAILED $failure"
+    puts "CVFPU_MASK_DC_FAILED $failure"
     puts $stats "control\terror\t$failure"
     close $stats
     exit 2
