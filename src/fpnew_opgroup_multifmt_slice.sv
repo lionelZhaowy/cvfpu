@@ -756,7 +756,9 @@ or on 16b inputs producing 32b outputs");
             .op_i,
             .dst_fmt_i,
             .tag_i,
-            .mask_i           ( simd_mask_i[lane]   ),
+            .mask_i           ( LANE_FORMATS[dst_fmt_i] &&
+                                simd_mask_i[(lane * fpnew_pkg::fp_width(dst_fmt_i)) /
+                                            (Width / NUM_SIMD_LANES)] ),
             .aux_i            ( aux_data            ),
             .vectorial_op_i   ( vectorial_op        ), // synchronize only vectorial operations
             .in_valid_i       ( in_valid            ),

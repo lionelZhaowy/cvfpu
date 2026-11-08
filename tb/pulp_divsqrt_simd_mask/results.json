@@ -1,0 +1,416 @@
+{
+  "base": "35cb37e0c604b46bf6b62c0c91b05a60ed7c9cd3",
+  "production_file": "src/fpnew_opgroup_multifmt_slice.sv",
+  "production_original_sha256": "03b9c770f437730c2702b0c8042b5cedde6a2a5a8fcd0cf1a0eeb4a581a909cc",
+  "production_candidate_sha256": "873094bcb2d5b344c0471ce2a090cfa749ed93405c49e73de2b2fc992c556418",
+  "functional": [
+    {
+      "test": "tb_pulp_divsqrt_mask",
+      "variant": "original",
+      "sha256": "f8f920e6e8ab74698525a2323dfe75c1601ee90f26452d78c1a41e871e9c89d7",
+      "tb_sha256": "7c1df0d7b0c0efa711ee229fa81fdf38ff018ad66550df80a6019fa642e61a1f",
+      "cases": 12,
+      "actual_input_records": 0,
+      "actual_output_records": 0,
+      "hold_records": 0,
+      "checks": 57,
+      "integrity_errors": [],
+      "functional_errors": [
+        "flags_1_got18_expected00",
+        "flags_3_got08_expected00",
+        "flags_4_got18_expected08",
+        "flags_5_got18_expected00",
+        "flags_7_got10_expected00",
+        "flags_8_got00_expected10"
+      ],
+      "TB_failed_cases": 6,
+      "accepted": false
+    },
+    {
+      "test": "tb_pulp_divsqrt_mask",
+      "variant": "fixed",
+      "sha256": "89e55813ccf131cb6be66915201aaa9e634c16ef7b8540c7a85ce0a3b58ebde5",
+      "tb_sha256": "7c1df0d7b0c0efa711ee229fa81fdf38ff018ad66550df80a6019fa642e61a1f",
+      "cases": 12,
+      "actual_input_records": 0,
+      "actual_output_records": 0,
+      "hold_records": 0,
+      "checks": 57,
+      "integrity_errors": [],
+      "functional_errors": [],
+      "TB_failed_cases": 0,
+      "accepted": true
+    },
+    {
+      "test": "tb_pulp_divsqrt_mask_scope",
+      "variant": "original",
+      "sha256": "6df6842fb045479eb7ae3ec2908153313910cd74c23fd05d5beb8b474b48e118",
+      "tb_sha256": "20b24007cbd182eccee45b1bed9208bfe7bec2f23bd4d9366cbc5e042fe7e577",
+      "cases": 240,
+      "actual_input_records": 240,
+      "actual_output_records": 240,
+      "hold_records": 42,
+      "checks": 1532,
+      "integrity_errors": [],
+      "functional_errors": [
+        "flags_67_got08_expected00",
+        "flags_68_got08_expected00",
+        "flags_69_got18_expected08",
+        "flags_70_got18_expected08",
+        "flags_71_got18_expected08",
+        "flags_72_got18_expected08",
+        "flags_73_got18_expected00",
+        "flags_74_got18_expected00",
+        "flags_75_got18_expected00",
+        "flags_76_got18_expected00",
+        "flags_77_got18_expected08",
+        "flags_78_got18_expected08",
+        "flags_79_got18_expected08",
+        "flags_80_got18_expected08",
+        "flags_85_got18_expected00",
+        "flags_86_got18_expected08",
+        "flags_87_got18_expected00",
+        "flags_88_got18_expected08",
+        "flags_89_got18_expected00",
+        "flags_90_got18_expected08",
+        "flags_91_got18_expected00",
+        "flags_92_got18_expected08",
+        "flags_93_got18_expected00",
+        "flags_94_got18_expected08",
+        "flags_95_got18_expected00",
+        "flags_96_got18_expected08",
+        "flags_99_got10_expected00",
+        "flags_100_got10_expected00",
+        "flags_101_got00_expected10",
+        "flags_102_got00_expected10",
+        "flags_107_got10_expected00",
+        "flags_108_got10_expected00",
+        "flags_109_got00_expected10",
+        "flags_110_got00_expected10",
+        "flags_131_got18_expected00",
+        "flags_132_got18_expected00",
+        "flags_133_got18_expected00",
+        "flags_134_got18_expected00",
+        "flags_135_got18_expected00",
+        "flags_136_got18_expected00",
+        "flags_137_got18_expected00",
+        "flags_138_got18_expected00",
+        "flags_139_got18_expected00",
+        "flags_140_got18_expected00",
+        "flags_141_got18_expected00",
+        "flags_142_got18_expected00",
+        "flags_143_got18_expected00",
+        "flags_144_got18_expected00",
+        "flags_147_got18_expected00",
+        "flags_148_got18_expected08",
+        "flags_149_got18_expected00",
+        "flags_150_got18_expected08",
+        "flags_151_got18_expected00",
+        "flags_152_got18_expected08",
+        "flags_153_got18_expected00",
+        "flags_154_got18_expected08",
+        "flags_155_got18_expected00",
+        "flags_156_got18_expected08",
+        "flags_157_got18_expected00",
+        "flags_158_got18_expected08",
+        "flags_159_got18_expected00",
+        "flags_160_got18_expected08"
+      ],
+      "TB_failed_cases": 62,
+      "accepted": false
+    },
+    {
+      "test": "tb_pulp_divsqrt_mask_scope",
+      "variant": "fixed",
+      "sha256": "aa70302c402d4f3dc50c9e194ebc99eb03bdeb8b9abc047b397756bab84c274e",
+      "tb_sha256": "20b24007cbd182eccee45b1bed9208bfe7bec2f23bd4d9366cbc5e042fe7e577",
+      "cases": 240,
+      "actual_input_records": 240,
+      "actual_output_records": 240,
+      "hold_records": 42,
+      "checks": 1532,
+      "integrity_errors": [],
+      "functional_errors": [],
+      "TB_failed_cases": 0,
+      "accepted": true
+    },
+    {
+      "test": "tb_pulp_divsqrt_nanbox_probe",
+      "variant": "original",
+      "sha256": "03d9d026a4d2bd006a0b07a6bd06bc7374872471021c1710b389302637cb1853",
+      "tb_sha256": "b890ac5f76b61049a53359bfad38fb276b567b7daa6cf7b8b1ae3f4f36488c5f",
+      "cases": 12,
+      "actual_input_records": 12,
+      "actual_output_records": 12,
+      "hold_records": 0,
+      "checks": 89,
+      "integrity_errors": [],
+      "functional_errors": [
+        "qnan_2_lane0",
+        "qnan_3_lane0",
+        "qnan_5_lane0",
+        "qnan_6_lane0",
+        "qnan_8_lane0",
+        "qnan_9_lane0",
+        "qnan_11_lane0",
+        "qnan_12_lane0"
+      ],
+      "TB_failed_cases": 8,
+      "accepted": false
+    },
+    {
+      "test": "tb_pulp_divsqrt_nanbox_probe",
+      "variant": "fixed",
+      "sha256": "03d9d026a4d2bd006a0b07a6bd06bc7374872471021c1710b389302637cb1853",
+      "tb_sha256": "b890ac5f76b61049a53359bfad38fb276b567b7daa6cf7b8b1ae3f4f36488c5f",
+      "cases": 12,
+      "actual_input_records": 12,
+      "actual_output_records": 12,
+      "hold_records": 0,
+      "checks": 89,
+      "integrity_errors": [],
+      "functional_errors": [
+        "qnan_2_lane0",
+        "qnan_3_lane0",
+        "qnan_5_lane0",
+        "qnan_6_lane0",
+        "qnan_8_lane0",
+        "qnan_9_lane0",
+        "qnan_11_lane0",
+        "qnan_12_lane0"
+      ],
+      "TB_failed_cases": 8,
+      "accepted": false
+    }
+  ],
+  "differential": [
+    {
+      "test": "tb_pulp_divsqrt_mask",
+      "all_result_tag_input_metadata_identical": true,
+      "cases": 12
+    },
+    {
+      "test": "tb_pulp_divsqrt_mask_scope",
+      "all_result_tag_input_metadata_identical": true,
+      "cases": 240
+    },
+    {
+      "test": "tb_pulp_divsqrt_nanbox_probe",
+      "all_result_tag_input_metadata_identical": true,
+      "cases": 12
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_all_handshakes",
+      "rejected": true
+    },
+    {
+      "name": "consistent_wrong_result",
+      "rejected": true
+    },
+    {
+      "name": "missing_done",
+      "rejected": true
+    },
+    {
+      "name": "missing_output",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_tag",
+      "rejected": true
+    },
+    {
+      "name": "wrong_flags",
+      "rejected": true
+    },
+    {
+      "name": "wrong_numeric",
+      "rejected": true
+    },
+    {
+      "name": "unknown_result",
+      "rejected": true
+    },
+    {
+      "name": "hold_payload",
+      "rejected": true
+    },
+    {
+      "name": "bad_summary",
+      "rejected": true
+    }
+  ],
+  "implementation": {
+    "original": {
+      "lint_warning_codes": {
+        "NS": 31,
+        "SV-PIU": 6
+      },
+      "lint_error_lines": [],
+      "structure": {
+        "setup.analyze_status": 1,
+        "setup.elaborate_status": 1,
+        "setup.link_status": 1,
+        "pre.check_design_status": 1,
+        "pre.check_timing_status": 1,
+        "pre.latches": 0,
+        "pre.flipflops": 1651,
+        "pre.raw_unresolved_reference_types": 94,
+        "pre.raw_black_box_reference_types": 0,
+        "pre.unresolved_references": 0,
+        "pre.black_box_references": 2214,
+        "pre.known_generic_cells": 1651,
+        "pre.cells": 23488,
+        "compile.no_map_status": 1,
+        "post.check_design_status": 1,
+        "post.check_timing_status": 1,
+        "post.latches": 0,
+        "post.flipflops": 1651,
+        "post.raw_unresolved_reference_types": 43277,
+        "post.raw_black_box_reference_types": 0,
+        "post.unresolved_references": 0,
+        "post.black_box_references": 0,
+        "post.known_generic_cells": 44927,
+        "post.cells": 52862
+      },
+      "DC_warning_code_counts": {
+        "driver.log": {
+          "VER-318": 49,
+          "VER-941": 1,
+          "ELAB-965": 28,
+          "HDL-193": 27,
+          "VER-61": 23,
+          "ELAB-311": 1,
+          "VO-12": 84,
+          "VO-4": 2,
+          "UISN-27": 1,
+          "LINT-99": 1,
+          "UID-85": 1,
+          "OPT-108": 1,
+          "TIM-134": 1,
+          "VO-11": 5
+        },
+        "post_check_design.rpt": {
+          "LINT-28": 2196,
+          "LINT-31": 6,
+          "LINT-52": 16,
+          "LINT-33": 136
+        },
+        "post_loops.rpt": {}
+      },
+      "log_sha256": "7dcedc5be668ecf94157d3316dd433212eeddc19b811bfedef6af88db5128948"
+    },
+    "fixed": {
+      "lint_warning_codes": {
+        "NS": 31,
+        "SV-PIU": 6
+      },
+      "lint_error_lines": [],
+      "structure": {
+        "setup.analyze_status": 1,
+        "setup.elaborate_status": 1,
+        "setup.link_status": 1,
+        "pre.check_design_status": 1,
+        "pre.check_timing_status": 1,
+        "pre.latches": 0,
+        "pre.flipflops": 1651,
+        "pre.raw_unresolved_reference_types": 97,
+        "pre.raw_black_box_reference_types": 0,
+        "pre.unresolved_references": 0,
+        "pre.black_box_references": 2229,
+        "pre.known_generic_cells": 1651,
+        "pre.cells": 23823,
+        "compile.no_map_status": 1,
+        "post.check_design_status": 1,
+        "post.check_timing_status": 1,
+        "post.latches": 0,
+        "post.flipflops": 1651,
+        "post.raw_unresolved_reference_types": 43354,
+        "post.raw_black_box_reference_types": 0,
+        "post.unresolved_references": 0,
+        "post.black_box_references": 0,
+        "post.known_generic_cells": 45004,
+        "post.cells": 52939
+      },
+      "DC_warning_code_counts": {
+        "driver.log": {
+          "VER-318": 49,
+          "VER-941": 1,
+          "ELAB-965": 28,
+          "HDL-193": 27,
+          "VER-61": 23,
+          "ELAB-311": 1,
+          "VO-12": 84,
+          "VO-4": 2,
+          "UISN-27": 1,
+          "LINT-99": 1,
+          "UID-85": 1,
+          "OPT-108": 1,
+          "TIM-134": 1,
+          "VO-11": 5
+        },
+        "post_check_design.rpt": {
+          "LINT-28": 2196,
+          "LINT-31": 6,
+          "LINT-52": 16,
+          "LINT-33": 136
+        },
+        "post_loops.rpt": {}
+      },
+      "log_sha256": "b9298407737214fbaf320f091f136bebee2c0e849f92d015a99347f44d63392f"
+    }
+  },
+  "limitations": [
+    "Eight malformed scalar NaN-box failures occur in both versions and remain unresolved.",
+    "Only the listed PULP DivSqrt configuration was tested; other backends and complete IEEE arithmetic are not covered.",
+    "Generic DC compile -no_map is not technology timing or area signoff."
+  ],
+  "dependencies": [
+    {
+      "dependency": "common_cells",
+      "HEAD": "6aeee85d0a34fedc06c14f04fd6363c9f7b4eeea",
+      "status": ""
+    },
+    {
+      "dependency": "fpu_div_sqrt_mvp",
+      "HEAD": "86e1f558b3c95e91577c41b2fc452c86b04e85ac",
+      "status": ""
+    },
+    {
+      "dependency": "common_verification",
+      "HEAD": "9c07fa860593b2caabd9b5681740c25fac04b878",
+      "status": ""
+    },
+    {
+      "dependency": "tech_cells_generic",
+      "HEAD": "7968dd6e6180df2c644636bc6d2908a49f2190cf",
+      "status": ""
+    }
+  ],
+  "tools": {
+    "Bender": "0.32.1",
+    "VCS": "W-2024.09-SP1",
+    "DC": "W-2024.09-SP1",
+    "checker_python": "3.9"
+  },
+  "configuration": {
+    "Width": 64,
+    "formats": [
+      "FP16",
+      "FP32",
+      "FP64"
+    ],
+    "EnableVectors": 1,
+    "EnableSIMDMask": 1,
+    "EnableNanBox": 1,
+    "DIVSQRT": "MERGED",
+    "other_operation_groups": "DISABLED",
+    "PipeRegs": 1,
+    "PipeConfig": "AFTER",
+    "backend": "PULP",
+    "roundmode": "RNE",
+    "tag_bits": 8
+  }
+}
